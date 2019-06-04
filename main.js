@@ -7,7 +7,7 @@ function safeCall(f) {
   }
 }
 
-safeCall(() => console.log('Hello!')); // true
-safeCall(() => JSON.parse('abc')); // false
-safeCall(() => false); // true
-safeCall(() => abc); // false
+safeCall(() => console.log('Hello!'));
+safeCall(() => JSON.parse('abc'));
+safeCall(() => false);
+safeCall(() => abc);
